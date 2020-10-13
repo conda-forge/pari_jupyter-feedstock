@@ -17,6 +17,8 @@ pin_run_as_build:
   readline:
     max_pin: x
 python:
-- 3.6.* *_73_pypy
+- 3.9.* *_cpython
 readline:
 - '8.0'
+target_platform:
+- linux-64
