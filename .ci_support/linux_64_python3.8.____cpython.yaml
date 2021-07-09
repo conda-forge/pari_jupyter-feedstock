@@ -11,7 +11,7 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-comp7
 pari:
-- '2.11'
+- 2.13.* *_pthread
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -21,7 +21,7 @@ pin_run_as_build:
 python:
 - 3.8.* *_cpython
 readline:
-- '8.0'
+- '8'
 target_platform:
 - linux-64
 zip_keys:
