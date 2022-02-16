@@ -1,7 +1,7 @@
 About pari_jupyter
 ==================
 
-Home: https://github.com/videlec/pari_jupyter
+Home: https://github.com/sagemath/pari_jupyter
 
 Package license: GPL-3.0-or-later
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pari_jupyter-fe
 
 Summary: Jupyter kernel for PARI/GP
 
-Development: https://github.com/videlec/pari_jupyter
+Development: https://github.com/sagemath/pari_jupyter
 
 Current build status
 ====================
