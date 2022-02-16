@@ -32,12 +32,12 @@ test:
     - PARIKernel
 
 about:
-  home: https://github.com/videlec/pari_jupyter
+  home: https://github.com/sagemath/pari_jupyter
   license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
   summary: Jupyter kernel for PARI/GP
-  dev_url: https://github.com/videlec/pari_jupyter
+  dev_url: https://github.com/sagemath/pari_jupyter
 
 extra:
   recipe-maintainers:
