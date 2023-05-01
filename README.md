@@ -1,11 +1,11 @@
-About pari_jupyter
-==================
+About pari_jupyter-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pari_jupyter-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sagemath/pari_jupyter
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pari_jupyter-feedstock/blob/main/LICENSE.txt)
 
 Summary: Jupyter kernel for PARI/GP
 
