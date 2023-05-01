@@ -10,8 +10,11 @@ source:
   sha256: ed7af3d291c8b4906518c075bbdd60a2da6b22a32c82286985d9e132c6de78c6
 
 build:
-  number: 2
-  script: {{ PYTHON }} -m pip install . -vv
+  number: 3
+  script:
+    # Remove old cythonized files
+    - rm PARIKernel/svg.c PARIKernel/kernel.c PARIKernel/io.c
+    - {{ PYTHON }} -m pip install . -vv
   skip: true  # [win]
 
 requirements:
@@ -19,6 +22,7 @@ requirements:
     - {{ compiler('c') }}
   host:
     - python
+    - cython
     - pip
     - pari
     - readline
