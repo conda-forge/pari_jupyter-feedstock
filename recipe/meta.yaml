@@ -1,5 +1,5 @@
 {% set name = "pari_jupyter" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('_', '-') }}-{{ version }}.tar.gz
-  sha256: 7447842a051531cd904968c3d50573d057adb70051249f3cee3103fce2b2177d
+  sha256: 7cd9291d05b92b8303c6ae8cf25622e5ecbab1ac2bcf13911f900ea987471b9d
 
 build:
   number: 0

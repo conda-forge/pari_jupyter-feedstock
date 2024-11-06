@@ -22,6 +22,3 @@ readline:
 - '8'
 target_platform:
 - linux-64
-zip_keys:
-- - python
-  - channel_sources
