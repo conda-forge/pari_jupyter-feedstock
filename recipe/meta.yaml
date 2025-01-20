@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('_', '-') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('_', '-') }}-{{ version }}.tar.gz
   sha256: 7447842a051531cd904968c3d50573d057adb70051249f3cee3103fce2b2177d
 
 build:
-  number: 0
+  number: 1
   script:
     # Remove old cythonized files
     - rm PARIKernel/svg.c PARIKernel/kernel.c PARIKernel/io.c
@@ -20,10 +20,12 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - cython <3
     - pip
+    - setuptools
     - pari
     - readline
   run:
