@@ -25,6 +25,7 @@ requirements:
     - python
     - cython <3
     - pip
+    - setuptools
     - pari
     - readline
   run:
