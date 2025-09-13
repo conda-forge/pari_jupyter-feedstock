@@ -12,8 +12,6 @@ source:
 build:
   number: 0
   script:
-    # Remove old cythonized files
-    - rm PARIKernel/svg.c PARIKernel/kernel.c PARIKernel/io.c
     - {{ PYTHON }} -m pip install . -vv
   skip: true  # [win]
   skip: true  # [py>312]
