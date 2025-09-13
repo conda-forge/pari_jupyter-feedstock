@@ -50,13 +50,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7368&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pari_jupyter-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7368&branchName=main">
@@ -77,13 +70,6 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pari_jupyter-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpython" alt="variant">
                 </a>
               </td>
-            </tr><tr>
-              <td>osx_64_python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7368&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pari_jupyter-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpython" alt="variant">
-                </a>
-              </td>
             </tr>
           </tbody>
         </table>
@@ -97,7 +83,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-pari_jupyter-green.svg)](https://anaconda.org/conda-forge/pari_jupyter) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pari_jupyter.svg)](https://anaconda.org/conda-forge/pari_jupyter) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pari_jupyter.svg)](https://anaconda.org/conda-forge/pari_jupyter) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pari_jupyter.svg)](https://anaconda.org/conda-forge/pari_jupyter) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pari__jupyter-green.svg)](https://anaconda.org/conda-forge/pari_jupyter) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pari_jupyter.svg)](https://anaconda.org/conda-forge/pari_jupyter) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pari_jupyter.svg)](https://anaconda.org/conda-forge/pari_jupyter) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pari_jupyter.svg)](https://anaconda.org/conda-forge/pari_jupyter) |
 
 Installing pari_jupyter
 =======================

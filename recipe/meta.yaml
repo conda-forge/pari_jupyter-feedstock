@@ -10,12 +10,13 @@ source:
   sha256: 7447842a051531cd904968c3d50573d057adb70051249f3cee3103fce2b2177d
 
 build:
-  number: 1
+  number: 2
   script:
     # Remove old cythonized files
     - rm PARIKernel/svg.c PARIKernel/kernel.c PARIKernel/io.c
     - {{ PYTHON }} -m pip install . -vv
   skip: true  # [win]
+  skip: true  # [py>312]
 
 requirements:
   build:
